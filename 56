@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday Nita! 🎉</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #ffe0f0, #ffd1d1);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      color: #d81b60;
+      text-align: center;
+      margin: 0;
+    }
+    h1 {
+      font-size: 2.5em;
+      animation: pop 1s ease-in-out infinite alternate;
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 1.2em;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      color: #ff4081;
+      max-width: 600px;
+      background: rgba(255,255,255,0.5);
+      padding: 16px 20px;
+      border-radius: 18px;
+      box-shadow: 0 4px 18px rgba(216,27,96,0.08);
+    }
+    .video-container {
+      margin-bottom: 12px;
+      box-shadow: 0 8px 32px rgba(216,27,96,0.07);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    @keyframes pop {
+      0% { transform: scale(1);}
+      100% { transform: scale(1.12);}
+    }
+    .footer {
+      margin-top: 25px;
+      font-size: 1em;
+      color: #ad1457;
+      opacity: 0.65;
+    }
+  </style>
+</head>
+<body>
+  <h1>🥳 Happy Birthday Nita! 🎂❤️</h1>
+  <div class="video-container">
+    <iframe width="340" height="191"
+      src="https://www.youtube.com/embed/MmdBrYiftzI?autoplay=1&amp;start=0"
+      title="Birthday Song"
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+    </iframe>
+  </div>
+  <p>
+    Wishing you a day full of laughter, love, and sweet surprises! 💖✨<br>
+    May all your dreams come true this year. 🌟<br>
+    You deserve all the happiness in the world, not just today, but every single moment you’re around.<br>
+    I hope your day is as amazing as you are! 🥰✨<br>
+    Enjoy every moment and keep smiling! 😄🎁<br>
+    <span style="font-size:22px;">From someone who really cares about you and can’t stop thinking about you 😉❤️</span>
+  </p>
+  <div class="footer">
+    &mdash; Made with ❤️ <span style="font-size:18px;">by KSV555</span>
+  </div>
+</body>
+</html>
